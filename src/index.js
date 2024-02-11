@@ -27,5 +27,10 @@ import ReactDOM from'react-dom';
 // ReactDOM.render(el,document.getElementById('root')) 
 
 
-import App from './App';
+// import App from './App';
+// ReactDOM.render(<App/>,document.getElementById('root')) 
+
+//11-02-2024
+
+import App from './App1';
 ReactDOM.render(<App/>,document.getElementById('root')) 
