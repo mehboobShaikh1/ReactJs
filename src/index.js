@@ -21,7 +21,7 @@
 // Below code writen by Mehboob Shaikh
 
 // import React from 'react';
-import ReactDOM from'react-dom';
+// import ReactDOM from'react-dom';
 // import el from './App'
 // let el = React.createElement('h5',null,"Hello Mehboob Shaikh")
 // ReactDOM.render(el,document.getElementById('root')) 
@@ -32,5 +32,22 @@ import ReactDOM from'react-dom';
 
 //11-02-2024
 
-import App from './App1';
-ReactDOM.render(<App/>,document.getElementById('root')) 
+// import App from './App1';
+// ReactDOM.render(<App/>,document.getElementById('root'))
+
+// how to use props by function base component
+
+// import Student from './functionbase';
+// import ReactDom from 'react-dom';
+// ReactDom.render(<Student name="Mehboob" surname="Shaikh"/>,document.getElementById('root'))
+
+
+
+// 12/02/2024
+
+//Composing Component
+
+import ReactDOM from "react-dom";
+import Mall from "./mall";
+
+ReactDOM.render(<Mall />,document.getElementById('root'))
