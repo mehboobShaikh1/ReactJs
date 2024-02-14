@@ -47,7 +47,37 @@
 
 //Composing Component
 
-import ReactDOM from "react-dom";
-import Mall from "./mall";
+// import ReactDOM from "react-dom";
+// import Mall from "./mall";
 
-ReactDOM.render(<Mall />,document.getElementById('root'))
+// ReactDOM.render(<Mall />,document.getElementById('root'))
+
+
+// import el from './App2'
+// import ReactDOM from 'react-dom';
+
+// ReactDOM.render(el,document.getElementById('root'))
+
+
+// import App from "./App3";
+// import ReactDOM from "react-dom";
+
+// ReactDOM.render(<App />, document.getElementById("root"));
+
+//=============================================================
+//    this is for children
+// import App from "./App4";
+// import ReactDOM from "react-dom";
+
+// ReactDOM.render(<App> children </App>, document.getElementById("root"));
+
+
+//=============================================================
+
+// this is for state, state like a props we can modify and it's only for class base component
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App5';
+
+ReactDOM.render(<App location="Mumbai" />, document.getElementById("root"));
